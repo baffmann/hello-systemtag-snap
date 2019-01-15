@@ -13,3 +13,5 @@ parts:
   gnu-hello:
     source: ./hello/
     plugin: autotools
+    build-packages:
+      - texinfo
